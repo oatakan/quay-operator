@@ -85,8 +85,8 @@ spec:
               mountPath: /conf/stack/extra_ca_certs
           resources:
             requests:
-              cpu: 500m
-              memory: 512Mi
+              cpu: 256m
+              memory: 256Mi
             limits:
-              cpu: 1000m
-              memory: 2Gi
+              cpu: 512m
+              memory: 512Mi

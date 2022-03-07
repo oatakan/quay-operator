@@ -73,11 +73,11 @@ spec:
               protocol: TCP
           resources:
             requests:
-              cpu: 2000m
-              memory: 8Gi
+              cpu: 512m
+              memory: 1Gi
             limits:
-              cpu: 2000m
-              memory: 8Gi
+              cpu: 1000m
+              memory: 2Gi
           startupProbe:
             httpGet:
               path: /health/instance

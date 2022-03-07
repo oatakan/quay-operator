@@ -69,11 +69,11 @@ spec:
               path: /healthz
           resources:
             requests:
-              cpu: 2000m
-              memory: 2Gi
+              cpu: 512m
+              memory: 512Mi
             limits:
-              cpu: 4000m
-              memory: 16Gi
+              cpu: 1000m
+              memory: 1Gi
       restartPolicy: Always
       volumes:
         - name: cluster-trusted-ca
